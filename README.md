@@ -1,6 +1,6 @@
 ###Simple example of FORM management in angular2
 ####Don't worry about lots of config file here... we can discuss it later
-####Only think about package.json,systemjs.config.js,tsconfig.json,typings.json -> These all mentioned at https://angular.io/docs/ts/latest/quickstart.html
+####Only think about package.json, systemjs.config.js, tsconfig.json, typings.json -> These all mentioned at https://angular.io/docs/ts/latest/quickstart.html
 
 
 ## Install npm packages
