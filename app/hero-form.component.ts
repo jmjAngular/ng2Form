@@ -13,7 +13,7 @@ export class HeroFormComponent {
     model = new Hero(18, 'Joseph', "jmj@gmail.com", '95367667');
     submitted = false;
 
-    onSubmit() {
+    submitForm() {
         console.log(this.model);
        // this.submitted = true;
     }

@@ -17,3 +17,5 @@ _temp
 !typings/typings.d.ts
 !wallaby.js
 *~
+npm-debug.log
+

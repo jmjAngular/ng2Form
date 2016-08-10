@@ -1,7 +1,7 @@
 {{diagnostic}}
 <div [hidden]="submitted">
     <h1> Form</h1>
-    <form *ngIf="active" (ngSubmit)="submitForm()" #heroForm="ngForm">
+    <form *ngIf="active"  #heroForm="ngForm">
 
         <!-- ... all of the form ... -->
 
@@ -19,6 +19,6 @@
             <input type="text" class="form-control" id="mobile" [(ngModel)]="model.mobile" name="mobile">
         </div>
         <button type="button" class="btn btn-default" (click)="resetHere()">RESET</button>
-        <button type="submit" class="btn btn-default">SUBMIT</button>
+        <button type="button" (click)="submitForm()" class="btn btn-default">SUBMIT</button>
     </form>
 </div>
